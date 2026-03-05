@@ -1,0 +1,689 @@
+/* above 1200px rules */
+@media screen and (max-width: 1500px) {
+  .contactUs {
+    padding: 0.8vw;
+  }
+
+  .companyListItem img {
+    width: 130px;
+  }
+
+  .certifications {
+    width: fit-content;
+    display: block;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .MobilePriceBtnContainer,
+  .MobilePriceInfo {
+    display: none;
+  }
+
+  .companyListContainer {
+    justify-content: center;
+  }
+
+  .featuresContainer {
+    margin-top: 30px;
+  }
+
+  .technicalContainer > .technicalDescription {
+    margin-bottom: 35px;
+  }
+}
+
+/* Max to 1200px rules */
+@media screen and (max-width: 1200px) {
+  main {
+    padding: 1vw;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .header {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  .HomePageTitle {
+    margin-top: 1vw;
+  }
+
+  .homePageListItems img {
+    height: 1.5vw;
+  }
+
+  .header,
+  .logo img {
+    height: 50px;
+  }
+
+  .technicalContainer > .technicalDescription {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 200 !important;
+  }
+
+  .technicalContainer th {
+    padding: 25px !important;
+    font-size: 18px;
+  }
+
+  .technicalContainer td {
+    padding: 25px !important;
+  }
+
+  /* .technicalContainer > .technicalTitle {
+    font-size: 18px;
+  } */
+
+  .technicalContainer > .technicalDescription {
+    font-size: 18px;
+  }
+
+  .downloadBtn {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .featuresContainer > .featuresBox {
+    width: 48%;
+    padding: 15px;
+  }
+
+  .frequentlyAskedQuestionsTitle {
+    margin-bottom: 30px;
+  }
+
+  .emailInputContainer {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .emailInputContainer input {
+    height: 40px !important;
+    width: 100%;
+  }
+
+  .emailInputContainer button {
+    height: 40px !important;
+    width: 250px !important;
+  }
+
+  .accordionItem {
+    margin-bottom: 15px;
+  }
+
+  .applicationsText p {
+    margin-top: 20px;
+  }
+
+  .arrowContainer p {
+    padding: 15px;
+  }
+
+  .sectionText {
+    margin-bottom: 30px;
+  }
+
+  .processImageContainer {
+    margin-top: 25px;
+  }
+
+  .processList li img {
+    height: 20px;
+  }
+}
+
+/* Max to 1070px rules */
+@media screen and (max-width: 1070px) {
+  .homePageImageContainer {
+    width: 100%;
+  }
+
+  .mobileStepsContainer {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    display: block;
+    width: fit-content;
+  }
+
+  .mobileNextBtns {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .mobileNextBtns button {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #cfd1d4;
+    background-color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .mobileNextBtns hr {
+    flex: 1;
+    color: var(--color-text-primary);
+  }
+
+  .applicationsCard {
+    height: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+  }
+
+  .applicationsCarousel {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .homePageInfo {
+    width: 100%;
+  }
+
+  .mainPage {
+    flex-direction: column-reverse;
+  }
+
+  .header {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .header,
+  .logo img {
+    height: 50px;
+  }
+
+  .emailContainer {
+    padding: 16px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .emailInputContainer {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .emailInputContainer input {
+    height: 40px !important;
+    width: 100%;
+  }
+
+  .emailInputContainer button {
+    height: 40px !important;
+    width: 250px !important;
+  }
+
+  .contactUs {
+    padding: 1.5vw;
+  }
+
+  .homePageListItems img {
+    height: 20px;
+  }
+
+  .HomePageTitle {
+    font-size: 56px;
+  }
+
+  .processContainer {
+    display: none;
+  }
+
+  .companyList {
+    gap: 2vw;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb {
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+  }
+
+  .companyListItem:nth-child(n + 4) {
+    display: none;
+  }
+
+  .companyListTitle {
+    margin-bottom: 5vw;
+    margin-top: 7vw;
+  }
+
+  .companyFeaturesDescription {
+    width: 100%;
+  }
+
+  .applicationsText p {
+    width: 100%;
+  }
+
+  .frequentlyAskedQuestionsTitle {
+    font-size: 36px;
+  }
+
+  .sectionTitle {
+    width: 90%;
+  }
+
+  .sectionText {
+    width: 100%;
+  }
+
+  .manufacturingProcessContainer {
+    margin-top: 30px;
+    padding: 16px;
+  }
+
+  .processImageContainer {
+    flex-direction: column;
+  }
+
+  .processTextContainer {
+    width: 100%;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .callText p {
+    text-align: center;
+  }
+
+  .callText h2 {
+    text-align: center;
+  }
+
+  .portfolioCard img {
+    height: 350px;
+  }
+
+  .portfolioContainer {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .portfolioCard button {
+    padding: 10px;
+  }
+
+  .portfolioCard {
+    padding: 13px;
+    gap: 10px;
+  }
+
+  .exportCall {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .callBtn button {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+
+  .downloadContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .downloadContainer .downloadCard {
+    flex-direction: column;
+    border-bottom: 1px solid #e1e3e8;
+    padding: 10px;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactUsText {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .contactUsForm {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .logoAndText img {
+    height: 60px;
+    width: 150px;
+  }
+
+  .logoAndText p {
+    width: 60%;
+  }
+
+  .linkDiv {
+    width: 48%;
+  }
+
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+
+  .contactInfoDiv hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .copyrightText {
+    flex-direction: column;
+  }
+
+  .copyrightText p {
+    margin-left: 0px !important;
+  }
+
+  .copyrightText ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .homePageImage {
+    cursor: pointer;
+    height: 450px;
+  }
+
+  .rightArrow {
+    right: 20px;
+  }
+
+  .leftArrow {
+    left: 20px;
+  }
+
+  .zoomPreview.active {
+    display: none;
+  }
+
+  .stickyHeader button {
+    display: none;
+  }
+
+  .stickyHeaderTitle {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .contactInfoDiv ul li {
+    gap: 10px;
+  }
+
+  .contactInfoDiv ul li img {
+    height: 15px;
+  }
+}
+
+/* Max to 450px rules */
+@media screen and (max-width: 450px) {
+  .logoAndText {
+    gap: 15px;
+  }
+
+  .modalFormHeader {
+    align-items: center !important;
+  }
+
+  .modalTitle {
+    width: 80%;
+  }
+
+  #modalClose {
+    height: 30px !important;
+  }
+
+  .modalContainer {
+    width: 90%;
+  }
+
+  .stickyHeader {
+    padding: 10px;
+  }
+
+  .stickyHeaderTitle {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .imageArrow {
+    top: 30%;
+  }
+
+  .leftArrow {
+    left: 10px;
+  }
+
+  .rightArrow {
+    right: 10px;
+  }
+
+  .linkDiv {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+  }
+
+  .logoAndText {
+    flex-direction: column;
+  }
+
+  .logoAndText img {
+    height: 50px;
+    width: 100px;
+  }
+
+  .logoAndText p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logoAndText p {
+    font-size: 16px;
+  }
+
+  .contactContainer {
+    padding: 15px;
+  }
+
+  .downloadContainer .downloadCard:last-child {
+    border-bottom: none;
+  }
+
+  .contactUsText h1 {
+    font-size: 36px;
+  }
+
+  .contactUsText p {
+    font-size: 16px;
+  }
+
+  .downloadContainer .downloadCard p {
+    margin-left: 0;
+  }
+
+  .callBtn {
+    width: 100%;
+  }
+  .callBtn button {
+    width: 100% !important;
+  }
+
+  .applicationsText h2 {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .portfolioCard img {
+    height: 200px;
+  }
+  .portfolioCard p {
+    font-size: 14px;
+  }
+
+  .applicationsText p {
+    width: 100%;
+  }
+
+  .frequentlyAskedQuestionsTitle {
+    font-size: 36px;
+  }
+
+  .featuresContainer > .featuresBox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .homePageListItems img {
+    height: 4vw;
+  }
+
+  .applicationsTextContainer {
+    flex-direction: column;
+  }
+
+  .HomePageTitle {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .shippingReturns {
+    flex-direction: column;
+  }
+
+  .sectionTitle {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .linkHeader {
+    margin-bottom: 10px;
+  }
+
+  .sectionText {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .header ul {
+    display: none;
+  }
+
+  .header,
+  .logo img {
+    height: 50px;
+  }
+
+  .header {
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+  }
+
+  .resultsCard {
+    width: 90% !important;
+    padding: 16px;
+  }
+
+  .companyList {
+    flex-wrap: wrap;
+    gap: 3vw;
+  }
+
+  .PriceInfo,
+  .PriceBtnContainer {
+    display: none;
+  }
+
+  .MobilePriceBtnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    margin-top: 5vw;
+  }
+
+  .MobilePriceBtnContainer button {
+    padding: 20px;
+  }
+
+  .breadcrumb {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .companyListDiv {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .companyListTitle {
+    margin-bottom: 30px;
+  }
+
+  .companyListItem:nth-child(n + 3) {
+    display: none;
+  }
+
+  .technicalContainer > .technicalTitle {
+    width: 100%;
+    font-size: 36px;
+  }
+
+  .technicalContainer > .technicalDescription {
+    width: 100%;
+  }
+
+  table {
+    width: 100% !important;
+  }
+
+  .downloadBtn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .companyFeaturesTitle {
+    font-size: 36px;
+  }
+
+  .emailInputContainer {
+    flex-direction: column;
+  }
+
+  .emailInputContainer button {
+    width: 100% !important;
+  }
+}
